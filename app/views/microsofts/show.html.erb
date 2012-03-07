@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @microsoft.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @microsoft.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_microsoft_path(@microsoft) %> |
+<%= link_to 'Back', microsofts_path %>
